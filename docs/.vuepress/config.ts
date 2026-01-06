@@ -16,15 +16,15 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'Firefly博客模板文档',
-  description: 'Firefly 是一款基于 Astro 框架的模板开发的清新美观且现代化个人博客主题，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。',
+  title: 'FoxStack Docs',
+  description: 'FoxStack Docs 是一个面向技术人员与团队的 结构化知识库系统，致力于将零散经验、技术文档与实践总结沉淀为 可搜索、可演进、可复用的长期知识资产。它不仅是一个“写文档的地方，更是一套 围绕知识生命周期设计的系统：从沉淀、组织、检索到复用，让知识真正产生持续价值',
 
   // 多语言配置
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Firefly博客模板文档',
-      description: 'Firefly 是一款基于 Astro 框架的模板开发的清新美观且现代化个人博客主题，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。'
+      title: 'FoxStack Docs',
+      description: 'FoxStack Docs 是一个面向技术人员与团队的 结构化知识库系统，致力于将零散经验、技术文档与实践总结沉淀为 可搜索、可演进、可复用的长期知识资产。它不仅是一个“写文档的地方，更是一套 围绕知识生命周期设计的系统：从沉淀、组织、检索到复用，让知识真正产生持续价值'
     },
   },
 
@@ -66,7 +66,7 @@ export default defineUserConfig({
 
     /* 社交链接 */
     social: [
-      { icon: 'github', link: 'https://github.com/CuteLeaf/Firefly'},
+      { icon: 'github', link: 'https://github.com/haomingplus/FoxStack'},
     ],
 
     /* 版权信息 */
@@ -74,14 +74,14 @@ export default defineUserConfig({
 
     /* 站点页脚 */
     footer: {
-      copyright: 'Copyright © 2025 Firefly. All rights reserved.<br /><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">桂ICP备20005240号-7</a>'
+      copyright: 'Copyright © 2025 FoxStack. All rights reserved.<br /><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">桂ICP备20005240号-7</a>'
     },
 
     /* 个人资料 */
     profile: {
       avatar: 'https://theme-plume.vuejs.press/plume.png',
-      name: 'Firefly',
-      description: 'Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。',
+      name: 'FoxStack',
+      description: 'FoxStack Docs 是一个面向技术人员与团队的 结构化知识库系统，致力于将零散经验、技术文档与实践总结沉淀为 可搜索、可演进、可复用的长期知识资产。它不仅是一个“写文档的地方，更是一套 围绕知识生命周期设计的系统：从沉淀、组织、检索到复用，让知识真正产生持续价值。',
     },
 
     /**
@@ -141,7 +141,7 @@ export default defineUserConfig({
       whitespace: false, // 禁用 空格/Tab 高亮
       lineNumbers: true, // 启用行号
       // 添加更多语言支持
-      languages: [
+      langs: [
         'javascript', 'typescript', 'vue', 'html', 'css', 'scss', 'json',
         'markdown', 'bash', 'shell', 'powershell', 'yaml', 'yml', 'xml',
         'astro', 'jsx', 'tsx', 'python', 'java', 'go', 'rust', 'php'

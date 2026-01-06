@@ -1,8 +1,8 @@
 {
-  "name": "Docs-Firefly",
+  "name": "Docs-FoxStack",
   "type": "module",
   "version": "3.0.0",
-  "description": "一个基于Astro的博客主题模板",
+  "description": "日常知识随笔",
   "packageManager": "pnpm@10.14.0",
   "pnpm": {
     "onlyBuiltDependencies": [

@@ -33,7 +33,18 @@ const Note = defineNoteConfig({
       text: "从这里开始",
       icon: "ri:book-open-line",
       prefix: "/guide/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
-      collapsed: false, // 是否默认折叠
+      collapsed: true, // 是否默认折叠
+      items: [
+        { text: "模板介绍", link: "intro/", icon: "ri:information-line" },
+        { text: "快速开始", link: "get-started/", icon: "ri:rocket-line" },
+        { text: "部署方式", link: "deployment/", icon: "ri:server-line" },
+      ],
+    },
+    {
+      text: "java基础",
+      icon: "ri:book-open-line",
+      prefix: "/java-core/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
       items: [
         { text: "模板介绍", link: "intro/", icon: "ri:information-line" },
         { text: "快速开始", link: "get-started/", icon: "ri:rocket-line" },

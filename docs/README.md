@@ -8,20 +8,20 @@ config:
     background: tint-plate
     tintPlate: 71,185,119
     hero:
-      name: Firefly
-      tagline: Astro Next Theme
-      text: 一款清新美观的<br>Astro 博客主题模板
-      image: /1131.png
+      name: FoxStack Docs
+      tagline: 
+      text:  总结，沉淀
+      image: 
     
       actions:
         -
           theme: brand
-          text: 快速开始 →
+          text: 去往知识库 →
           link: /guide/intro/
         -
           theme: alt
-          text: 在Github上查看 →
-          link: https://github.com/CuteLeaf/Firefly
+          text: 去我的博客 →
+          link: https://blog.foxstack.cn
 
 
   - 
