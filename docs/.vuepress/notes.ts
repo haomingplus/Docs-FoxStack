@@ -30,139 +30,86 @@ const Note = defineNoteConfig({
   // 手动配置侧边栏结构
   sidebar: [
     {
-      text: "从这里开始",
-      icon: "ri:book-open-line",
-      prefix: "/guide/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
-      collapsed: true, // 是否默认折叠
-      items: [
-        { text: "模板介绍", link: "intro/", icon: "ri:information-line" },
-        { text: "快速开始", link: "get-started/", icon: "ri:rocket-line" },
-        { text: "部署方式", link: "deployment/", icon: "ri:server-line" },
-      ],
-    },
-    {
-      text: "java基础",
+      text: "JAVA基础",
       icon: "ri:book-open-line",
       prefix: "/java-core/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
       collapsed: true, // 是否默认折叠
       items: [
-        { text: "模板介绍", link: "intro/", icon: "ri:information-line" },
-        { text: "快速开始", link: "get-started/", icon: "ri:rocket-line" },
-        { text: "部署方式", link: "deployment/", icon: "ri:server-line" },
+        { text: "ConcurrentHashMap 底层实现原理详解", link: "concurrenthashmap/", icon: "ri:information-line" },
+        { text: "HashMap 底层实现原理详解", link: "hashmap/", icon: "ri:information-line" },
       ],
     },
     {
-      text: "配置说明",
-      icon: "ri:settings-2-line",
-      prefix: "/config/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      text: "JVM & GC",
+      icon: "ri:book-open-line",
+      prefix: "/jvm/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
       collapsed: true, // 是否默认折叠
       items: [
-        // 核心配置
-        { text: "站点配置", link: "siteConfig-usage/", icon: "ri:global-line" },
-        {
-          text: "用户资料配置",
-          link: "profileConfig-usage/",
-          icon: "ri:user-line",
-        },
-
-        // 功能配置
-        {
-          text: "评论配置",
-          link: "commentConfig-usage/",
-          icon: "ri:chat-3-line",
-        },
-        {
-          text: "公告配置",
-          link: "announcementConfig-usage/",
-          icon: "ri:megaphone-line",
-        },
-        {
-          text: "许可证配置",
-          link: "licenseConfig-usage/",
-          icon: "ri:copyright-line",
-        },
-        {
-          text: "页脚配置",
-          link: "footerConfig-usage/",
-          icon: "ri:layout-bottom-line",
-        },
-
-        // 样式配置
-        {
-          text: "背景壁纸配置",
-          link: "backgroundWallpaper-usage/",
-          icon: "ri:image-2-line",
-        },
-        {
-          text: "代码高亮配置",
-          link: "expressiveCodeConfig-usage/",
-          icon: "ri:code-s-slash-line",
-        },
-        {
-          text: "樱花特效配置",
-          link: "sakuraConfig-usage/",
-          icon: "ri:flower-line",
-        },
-        { text: "字体配置", link: "fontConfig-usage/", icon: "ri:font-size" },
-        {
-          text: "封面图配置",
-          link: "coverImageConfig-usage/",
-          icon: "ri:image-line",
-        },
-
-        // 布局配置
-        {
-          text: "侧边栏配置",
-          link: "sidebarConfig-usage/",
-          icon: "ri:layout-line",
-        },
-        {
-          text: "导航栏配置",
-          link: "navBarConfig-usage/",
-          icon: "ri:menu-line",
-        },
-
-        // 组件配置
-        {
-          text: "音乐播放器配置",
-          link: "musicConfig-usage/",
-          icon: "ri:music-line",
-        },
-        { text: "看板娘配置", link: "pioConfig-usage/", icon: "ri:robot-line" },
-        {
-          text: "广告配置",
-          link: "adConfig-usage/",
-          icon: "ri:settings-6-line",
-        },
-        {
-          text: "友链配置",
-          link: "friendsConfig-usage/",
-          icon: "ri:links-line",
-        },
-        {
-          text: "留言板配置",
-          link: "guestbook-usage/",
-          icon: "ri:chat-1-line",
-        },
-        {
-          text: "赞助配置",
-          link: "sponsorConfig-usage/",
-          icon: "ri:heart-line",
-        },
-
-        // 其他配置
-        { text: "番剧配置", link: "animeConfig-usage/", icon: "ri:tv-line" },
+        { text: "JVM内存模型详解", link: "jvm-memory-model/", icon: "ri:information-line" },
+        { text: "Java内存模型（JMM）详解", link: "jmm-memory-model/", icon: "ri:information-line" },
       ],
     },
     {
-      text: "撰写文章",
-      icon: "akar-icons:pencil",
-      prefix: "/press/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      text: "JAVA并发编程",
+      icon: "ri:book-open-line",
+      prefix: "/concurrent/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
       collapsed: true, // 是否默认折叠
       items: [
-        { text: "Markdown", link: "md/", icon: "ri:markdown-line" },
-        { text: "新建文章", link: "file/", icon: "ri:file-text-line" },
-        { text: "图表", link: "chart/", icon: "ri:pie-chart-line" },
+
+      ],
+    },
+    {
+      text: "MySQL",
+      icon: "ri:book-open-line",
+      prefix: "/mysql/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+
+      ],
+    },
+    {
+      text: "Redis",
+      icon: "ri:book-open-line",
+      prefix: "/redis/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+
+      ],
+    },
+    {
+      text: "RocketMQ",
+      icon: "ri:book-open-line",
+      prefix: "/rocketmq/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+
+      ],
+    },
+    {
+      text: "Kafka",
+      icon: "ri:book-open-line",
+      prefix: "/kafka/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+
+      ],
+    },
+    {
+      text: "面试项目题",
+      icon: "ri:book-open-line",
+      prefix: "/project/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+
+      ],
+    },
+    {
+      text: "面试场景题",
+      icon: "ri:book-open-line",
+      prefix: "/scene/", // 使用 prefix 拼接，可以简写 下面的 items 中的 link 为相对路径
+      collapsed: true, // 是否默认折叠
+      items: [
+
       ],
     },
   ],
